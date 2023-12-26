@@ -3,7 +3,7 @@ var src = ["./assets/images/project-1.jpg", "./assets/images/project-4.jpg", "./
 
 
 gsap.registerPlugin(ScrollTrigger)
-gsap.to("body", { opacity: 1, delay: 1, duration: 2, ease: "power1.out", });
+    //gsap.to("body", { opacity: 1, delay: 1, duration: 2, ease: "power1.out", });
 gsap.to(".service-card", {
     opacity: 1,
     duration: 1,
